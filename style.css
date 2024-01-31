@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  width: 100%;
+
+  /* Estilos para o corpo (body) */
+  body {
+    background-image: url('https://www.meuwindows.com/wp-content/uploads/2018/01/tema-preto-abstrato.jpg'); /* Substitua 'sua-imagem-de-fundo.jpg' pelo nome da sua imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* A imagem de fundo não rolará com a página */
+    background-position: center center;
+    margin: 0; /* Remova margens para evitar espaços indesejados */
+    padding: 0; /* Remova preenchimento para evitar espaços indesejados */
+    color: white; /* Define a cor do texto como branco */
+    font-family: Arial, sans-serif; /* Define uma fonte de texto padrão */
+  }
+
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #000; /* Cor de fundo preta */
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Alinha os elementos ao centro e à direita */
+    align-items: center;
+  }
+
+  header img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  /* Estilos para o botão de menu */
+  .menu-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px; /* Espaço à direita do botão de menu */
+  }
+
+  /* Estilos para a barra de pesquisa */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Estilos para a barra de navegação */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  /* Estilos para as notícias */
+  .news-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .news-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .news-title {
+    font-size: 24px;
+  }
+
+  .news-date {
+    color: #888;
+  }
+
+  .news-item img {
+    display: block; /* Evita espaços indesejados */
+    margin: 0 auto; /* Centraliza a imagem */
+  }
